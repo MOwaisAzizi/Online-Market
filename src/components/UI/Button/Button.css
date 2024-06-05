@@ -1,0 +1,27 @@
+.btn {
+  background: transparent;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  font: inherit;
+  color: #ffffff;
+  margin: 10px;
+  padding: 10px;
+}
+
+.success {
+  background: #388e3c;
+}
+.danger {
+  background: #de2f2f;
+}.form{
+  background-color: rgb(189, 46, 189);
+}
+.success:hover {
+  background-color: #0fd86d;
+  transition: 0.2s;
+}
+.danger:hover {
+  background-color: #f6614d;
+  transition: 0.2s;
+}

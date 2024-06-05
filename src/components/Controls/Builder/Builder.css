@@ -1,0 +1,29 @@
+.builder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.builder button {
+  display: block;
+  font: inherit;
+  padding: 5px;
+  margin: 0 8px;
+  width: 80px;
+  background: #9c27b0;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+}
+
+.builder div {
+  color: #8e24aa;
+  margin: 0 10px;
+}
+
+.builder button:hover {
+  background-color: #d471f0;
+  transition: 0.2s;
+}

@@ -1,0 +1,16 @@
+.input-element{
+    width: 100%;
+    border:1px solid gray;
+    padding: 6px;
+    border-radius: 4px;
+    display: block;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: auto;
+}.input{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}.invalid{
+    border: 1px solid red;
+}

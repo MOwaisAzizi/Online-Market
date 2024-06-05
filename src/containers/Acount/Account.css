@@ -1,0 +1,15 @@
+.form {
+    max-width: 50rem;
+    background: #fafaff;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: auto;
+    border-radius: 5px;
+    padding: 32px 0;
+    box-shadow: 0 0 25px 5px rgba(0, 0, 0, 0.07);
+    border: solid 1px rgb(183, 176, 176);
+  }.form h2{
+    text-align: center;
+    color: rgb(207, 51, 207);
+  }

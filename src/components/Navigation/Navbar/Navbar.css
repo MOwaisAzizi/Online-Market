@@ -1,0 +1,9 @@
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #8e24aa;
+  box-sizing: border-box;
+  z-index: 50;
+}

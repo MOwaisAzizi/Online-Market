@@ -1,0 +1,18 @@
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+
+li a:hover {
+  /* background: #a535c4; */
+  color: rgba(189, 187, 183, 0.905);
+} 
