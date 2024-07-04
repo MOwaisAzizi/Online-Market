@@ -85,10 +85,13 @@ for (let item in this.state.form){
     alert('Data Send')
   })
   .catch(err=>{
-    console.log(err);
+   alert(err)
   })
 }
 
+fakesubmit(){
+  alert('submited!')
+}
 
 render(){
   const elementArray = []
@@ -97,13 +100,13 @@ render(){
       id:item,
       config: this.state.form[item]
     })
-    
-    
   }
+
   return (
 <div className='form'>
   <h2>Account</h2>
-    <form onSubmit={this.sumbitHandler}>
+    {/* <form onSubmit={this.sumbitHandler}> */}
+    <form onSubmit={this.fakesubmit}>
   {    elementArray.map((item)=>{
          return (
         <Input key ={item.id}
