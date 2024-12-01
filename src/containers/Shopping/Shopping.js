@@ -4,8 +4,6 @@ import Wrapper from '../../hoc/Wrapper'
 import Controls from '../../components/Controls/Controls'
 import Modal from '../../components/UI/Modal/Modal'
 import Order from '../../components/Order/Order'
-import {Link,Redirect} from 'react-router-dom'
-import axios from 'axios'
 
 const prices = {
   product1: 59,
